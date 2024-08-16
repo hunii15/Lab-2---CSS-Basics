@@ -23,12 +23,21 @@ div > p {
 }
 /* II. Box model and common properties */
 /* Put styles for questions 1-8 here */
-.box {
-    background-color: pink;
-    margin: 10px 5em 2% 0;
-    padding: 10px 5px 15px 20px
-    height: 5rem
-    width: 100px
+.box { 
+    background-color: pink !important;
+    margin: 10px 5em 2% 0 !important;
+    padding: 10px 5px 15px 20px !important;
+    height: 5rem !important;
+    width: 1080px !important;
+    border: 3px solid purple !important;
+    box-sizing:border-box !important;
+    overflow: auto !important;
+    outline: 3px solid black !important;
+    border-radius: 10em;
+    background-image: url(../assets/images/img1.png)
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 /* III. Positioning */
