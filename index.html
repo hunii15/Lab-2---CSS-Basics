@@ -7,16 +7,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
 
+    <link rel="stylesheet" href="./index.css" />
     <title>Module 2 - CSS Lab Exercises</title>
     <!-- 5.3 - Select the <link> option from ‘Use on the web’ and copy the stylesheet code into the <head> section of index.html -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <h1>My CSS journey</h1>
@@ -112,7 +106,21 @@
         >Styling links (Mozilla)</a
       >
     </article>
-
+    <style>
+      a, a:link {
+          color: #a3db34; 
+          font-size: 20px;
+          font-weight: bold;
+          text-decoration: none; 
+      }
+      a:hover, a:active, a:focus {
+            color: red; 
+            text-decoration: underline; 
+        }
+        a:visited{
+          color: saddlebrown; font-style: italic;
+        }
+  </style>
     <article>
       <h2>VI. calc()</h2>
       <div class="calc-style">
