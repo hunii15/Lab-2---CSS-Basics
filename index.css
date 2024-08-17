@@ -93,5 +93,5 @@ a:link{
 }
 .fluid-col{
   display: inline-block;
-  width: calc(100vw - 100px);
+  width: calc(350px - 100px);
 }
