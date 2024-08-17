@@ -79,7 +79,19 @@ a:link{
   font-weight: bold;
   text-decoration: none;
 }
-
-
 /* VI. calc() */
 /* Put styles for questions 1-3 here */
+.calc-style{
+  width: 100vw;
+  background-color: salmon;
+  width: calc(100vw - 100px);
+}
+
+.fixed-width-col{
+  width: 350px;
+  display: inline-block;
+}
+.fluid-col{
+  display: inline-block;
+  width: calc(100vw - 100px);
+}
